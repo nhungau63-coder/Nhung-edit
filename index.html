@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Video editor portfolio — YouTube, documentary, explainer and motion graphics." />
+  <title>NHUNG — Video Editor</title>
+  <link rel="preconnect" href="https://www.youtube-nocookie.com">
+  <link rel="preconnect" href="https://player.vimeo.com">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="noise"></div>
+
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Back to top">
+      <span id="brandName">NHUNG</span>
+      <small id="brandRole">VIDEO EDITOR</small>
+    </a>
+
+    <nav class="nav" aria-label="Primary navigation">
+      <a href="#home">Home</a>
+      <a href="#work">Work</a>
+      <a href="#about">About</a>
+      <a href="#process">Process</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <a class="btn btn-outline header-hire" id="headerHire" href="#contact">Hire Me</a>
+
+    <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span>
+    </button>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-copy">
+        <div class="eyebrow">VIDEO EDITOR FOR YOUTUBE & BRANDS</div>
+        <h1 id="heroTitle">Stories<br/>Edited to <span>Engage</span></h1>
+        <p id="heroText">
+          I turn scripts, voice-over and raw footage into engaging videos that keep viewers watching.
+          Specialized in YouTube documentaries, finance content, explainer videos and motion graphics.
+        </p>
+
+        <div class="hero-actions">
+          <button class="btn btn-primary" id="showreelBtn">
+            <span class="play-dot">▶</span>
+            Watch Showreel
+          </button>
+          <a class="btn btn-outline" id="heroHire" href="#contact">Hire Me on Upwork ↗</a>
+        </div>
+
+        <div class="stats">
+          <div><strong id="projectCount">6+</strong><span>Selected Projects</span></div>
+          <div><strong>100%</strong><span>Client Focused</span></div>
+          <div><strong>Video Editor</strong><span>YouTube · Documentary · Explainer</span></div>
+        </div>
+      </div>
+
+      <div class="hero-visual" aria-hidden="true">
+        <div class="monitor monitor-main">
+          <div class="screen-top">
+            <span></span><span></span><span></span>
+          </div>
+          <div class="preview-frame">
+            <div class="mountain"></div>
+            <div class="playhead"></div>
+          </div>
+          <div class="timeline">
+            <div class="track track-a"></div>
+            <div class="track track-b"></div>
+            <div class="track track-c"></div>
+            <div class="timeline-cursor"></div>
+          </div>
+        </div>
+        <div class="monitor monitor-side">
+          <div class="scope"></div>
+          <div class="scope small"></div>
+          <div class="scope wide"></div>
+        </div>
+        <div class="ambient"></div>
+      </div>
+    </section>
+
+    <section class="work section" id="work">
+      <div class="section-head">
+        <div>
+          <div class="eyebrow">FEATURED WORK</div>
+          <h2>Selected Projects</h2>
+        </div>
+        <p>A collection of my best video editing and motion graphics work.</p>
+      </div>
+
+      <div class="project-grid" id="projectGrid"></div>
+    </section>
+
+    <section class="about section" id="about">
+      <div class="about-copy">
+        <div class="eyebrow">ABOUT ME</div>
+        <h2>Hi, I’m <span id="aboutName">Nhung</span></h2>
+        <p id="aboutText">
+          I’m a video editor specializing in YouTube documentaries, finance content and explainer videos.
+          I work with scripts, voice-over, raw footage and research materials to create polished,
+          story-driven videos with strong pacing and clear visual storytelling.
+        </p>
+        <a class="btn btn-primary" id="aboutHire" href="#contact">Hire Me on Upwork ↗</a>
+      </div>
+
+      <div class="editor-card">
+        <div class="editor-screen">
+          <div class="editor-preview"></div>
+          <div class="editor-panels">
+            <span></span><span></span><span></span><span></span>
+          </div>
+          <div class="editor-timeline">
+            <i></i><i></i><i></i><i></i><i></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="services">
+        <article>
+          <div class="service-icon">▶</div>
+          <div><h3>Video Editing</h3><p>Long-form, short-form, explainer</p></div>
+        </article>
+        <article>
+          <div class="service-icon">◫</div>
+          <div><h3>Motion Graphics</h3><p>Animated text, infographics, visuals</p></div>
+        </article>
+        <article>
+          <div class="service-icon">▤</div>
+          <div><h3>B-roll Research</h3><p>Stock footage, archival footage</p></div>
+        </article>
+        <article>
+          <div class="service-icon">⌁</div>
+          <div><h3>Sound Design</h3><p>Music, SFX, mixing</p></div>
+        </article>
+        <article>
+          <div class="service-icon">▱</div>
+          <div><h3>Tools</h3><p>Premiere Pro, After Effects, Photoshop</p></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="process section" id="process">
+      <div class="eyebrow">MY PROCESS</div>
+      <h2>From Raw Footage to Final Video</h2>
+      <div class="steps">
+        <article><span>1</span><div><h3>Understand</h3><p>Your content, script, VO & references</p></div></article>
+        <b>→</b>
+        <article><span>2</span><div><h3>Edit & Enhance</h3><p>B-roll, motion graphics, sound & pacing</p></div></article>
+        <b>→</b>
+        <article><span>3</span><div><h3>Review & Feedback</h3><p>Clear revision rounds and notes</p></div></article>
+        <b>→</b>
+        <article><span>4</span><div><h3>Final Delivery</h3><p>High-quality video ready to publish</p></div></article>
+      </div>
+    </section>
+
+    <section class="contact section" id="contact">
+      <div>
+        <div class="eyebrow">LET’S WORK TOGETHER</div>
+        <h2>Have a project in mind?</h2>
+        <p>I’m available for freelance video editing projects.</p>
+      </div>
+      <div class="contact-actions">
+        <a class="btn btn-primary contact-btn" id="upworkBtn" target="_blank" rel="noopener noreferrer">Hire Me on Upwork ↗</a>
+        <a class="btn btn-outline contact-btn" id="emailBtn">Email Me</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>© <span id="year"></span> <span id="footerName">NHUNG</span></span>
+    <span>Video Editor Portfolio</span>
+  </footer>
+
+  <div class="modal" id="videoModal" aria-hidden="true">
+    <div class="modal-backdrop" data-close-modal></div>
+    <div class="modal-shell" role="dialog" aria-modal="true" aria-label="Video player">
+      <button class="modal-close" data-close-modal aria-label="Close video">×</button>
+      <div class="modal-title-row">
+        <div>
+          <div class="eyebrow" id="modalCategory">PROJECT</div>
+          <h3 id="modalTitle">Project</h3>
+        </div>
+      </div>
+      <div class="video-wrap" id="videoWrap"></div>
+      <p class="modal-note" id="modalNote"></p>
+    </div>
+  </div>
+
+  <script src="config.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
